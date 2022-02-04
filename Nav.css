@@ -1,0 +1,35 @@
+.nav_container{
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+.nav_left{
+    margin: 10px;
+    width:230 px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_left>img{
+    height: 50px;
+    width: 48px;
+    object-fit:contain;
+    border-radius: 10px;
+}
+.search_box{
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: whitesmoke;
+}
+    .search_box >input{
+
+        border: none;
+        outline: none;
+        background: none;
+    
+}
